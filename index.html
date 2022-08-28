@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupid Knot Matrimony App</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!--font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="header-bg">
+        <div class="bg-transparent custom-border">
+            <header class="container py-3">
+                <nav class="d-flex justify-content-between align-items-center flex-wrap wrap_b">
+                    <div>
+                        <img src="images/logo.png" alt="logo" class="img-fluid" width="170" height="170">
+                    </div>
+                    <div>
+                        <a href="#" class="custom-btn btn btn-lg text-white">Download App</a>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <div class="container header-banner">
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="mt-5 text-P">
+                        <div class="autotype">
+                            <h1 class="text-white banner-heading sm_h_text">Leading <span
+                                    class="text-danger">Gujarati</span> Matrimony</h1>
+                            <p class="banner-para sm_p_text">Love, Commitment, Togetherness, Marriage</p>
+                        </div>
+                        <div class="d-flex mt-5 d-flex flex-wrap justify-content-center">
+                            <a href="#" class="custom-btn-G btn d-flex m-2">
+                                <p><i class="fa-brands fa-google-play fs-2 mt-1"></i></p>
+                                <p class="ms-1"><span class="smallF">GET IT ON</span><br><span
+                                        class="fs-4 fw-bold">Google Play</span></p>
+                            </a>
+                            <a href="#" class="custom-btn-A btn d-flex m-2">
+                                <p><i class="fa-brands fa-app-store-ios fs-2 mt-1"></i></p>
+                                <p><span class="smallF m-0 ps-3">DOWNLOAD ON THE</span><br><span
+                                        class="fs-4 fw-bold">App Store</span></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 custom-padding" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-6 position-relative">
+                            <div class="pin text-center"><span class="pinUp">📌</span></div>
+                            <div class="img-position text-center">
+                                <img src="./images/img-1.jpg" alt="imgs" class="img_t">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row position-relative">
+                                <div class="pin2 text-center">📌</div>
+                                <div class="img-position2">
+                                    <img src="./images/img-2.jpg" alt="imgs" class="img_t">
+                                </div>
+                            </div>
+                            <div class="row position-relative">
+                                <div class="pin2 text-center">📌</div>
+                                <div class="img-position2">
+                                    <img src="./images/img-2.jpg" alt="imgs" class="img_t">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="second-sec">
+        <div class="container bg-white finder-sec p-4">
+            <h4 class="fw-bold">Kem Cho? Find your perfect life partner.</h4>
+            <ul class="d-flex justify-content-between align-items-center flex-wrap py-2 center-li">
+                <li class="nav-item dropdown list-unstyled">
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Looking For
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Male</a></li>
+                        <li><a class="dropdown-item" href="#">Female</a></li>
+
+                    </ul>
+                </li>
+                <li class="nav-item dropdown list-unstyled">
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        From Age
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">18</a></li>
+                        <li><a class="dropdown-item" href="#">19</a></li>
+                        <li><a class="dropdown-item" href="#">20</a></li>
+                        <li><a class="dropdown-item" href="#">21</a></li>
+                        <li><a class="dropdown-item" href="#">22</a></li>
+                        <li><a class="dropdown-item" href="#">23</a></li>
+                        <li><a class="dropdown-item" href="#">24</a></li>
+
+                    </ul>
+                </li>
+                <li class="nav-item dropdown list-unstyled">
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        To Age
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">25</a></li>
+                        <li><a class="dropdown-item" href="#">30</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown list-unstyled">
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Relegion
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Hindu</a></li>
+                        <li><a class="dropdown-item" href="#">Maheshwari</a></li>
+                        <li><a class="dropdown-item" href="#">Gujarati</a></li>
+                        <li><a class="dropdown-item" href="#">Punjabi</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown list-unstyled">
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Cast
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Jain</a></li>
+                        <li><a class="dropdown-item" href="#">Patel</a></li>
+                    </ul>
+                </li>
+                <li class="list-unstyled"><a href="#" class="custom-btn2 btn btn-lg px-5 py-3">Let's Begin</a></li>
+            </ul>
+
+        </div>
+    </section>
+
+    <div class="container third-sec">
+        <div class="text-center " data-aos="fade-up">
+            <h1 class="banner-heading sm_h_text">Gujarati Brides for you</h1>
+            <p class="banner-para text-secondary sm_p_text">Scared to swipe stranger? Try premium and find matches who
+                you share mutual connection with!</p>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/profile-pic2.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p1.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p2.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p3.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p4.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p5.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/profile-pic2.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p1.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p2.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p3.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p4.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p5.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/profile-pic2.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p1.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p2.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p3.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p4.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="text-P">
+                                <div class="img-box">
+                                    <img src="./images/p5.jpg" alt="pic" class="img-cr">
+                                </div>
+                                <div class="text-P">
+                                    <h4 class="fw-bold">23 Years, 5'2, Gujarati</h4>
+                                    <p class="fs-5">Hindu, Agarwal<br> Ahemdabad, Gujrat <br> Bachelor Degree in Science
+                                    </p>
+                                    <p class="fs-6 text-secondary">To view full Profile*</p>
+                                    <p><a href="#" class="custom-btn2 btn btn-lg px-5 py-3 w-100">Let's Begin</a></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container text-center solmate-sec " >
+
+        <h3 class="mt-5 sm_h_text" data-aos="fade-up"> Your Solmate is waiting for you</h3>
+        <p class="text-secondary fs-5 sm_p_text" data-aos="fade-up">We aim to understand the needs and concerns of singles through layered
+            questionnaires which help us to adjoin you with compatible and most suitable matches in justafew clicks.We
+            help you indulge yourself ina marriage that allows and encourages you to explore and grow as an individual
+            as well asacouple by expressing yourself and your love for each other.Acing the matchmaking techniques in
+            the Gujarati Community we aim to make various eligible bachelors meet their preferred match!</p>
+    </div>
+
+    <div class="container solmate-sec">
+        <div class="row">
+            <div class="col-md-6 img_collaction" data-aos="fade-right">
+                <div class="row gy-5">
+                    <div class="col-md-6">
+                        <div class="shape d-flex justify-content-center">
+                            <img src="./images/profile-pic.jpg" alt="img" class="img_size">
+                            <div class="p-1 bg-warning rounded shape-text">
+                                <i class="fa-solid fa-user-group text-white"> </i> <span class="text-white">07 Mutual
+                                    Connection</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="shape d-flex justify-content-center">
+                            <img src="./images/profile-pic.jpg" alt="img" class="img_size">
+                            <div class="p-1 bg-warning rounded shape-text">
+                                <i class="fa-solid fa-user-group text-white"> </i> <span class="text-white">07 Mutual
+                                    Connection</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="shape d-flex justify-content-center">
+                            <img src="./images/profile-pic.jpg" alt="img" class="img_size">
+                            <div class="p-1 bg-warning rounded shape-text">
+                                <i class="fa-solid fa-user-group text-white"> </i> <span class="text-white">07 Mutual
+                                    Connection</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="shape d-flex justify-content-center">
+                            <img src="./images/profile-pic.jpg" alt="img" class="img_size">
+                            <div class="p-1 bg-warning rounded shape-text">
+                                <i class="fa-solid fa-user-group text-white"> </i> <span class="text-white">07 Mutual
+                                    Connection</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 " data-aos="fade-left">
+                <div class="premium my-5 text-P">
+                    <h3 class="premium-head sm_h_text">Premium has more to offer</h3>
+                    <p class="banner-para text-secondary sm_p_text">Do you feel uneasy about swiping someone you don't
+                        know?Takeadvantage of premium and connect with people who share your interests!</p>
+                    <p class="mt-5 gap-b"><a href="#" class="custom-btn2 btn btn-lg px-5 py-3">Download App Now</a></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div data-aos="fade-up">
+            <h1 class="testimonial-head text-center sm_h_text">Trusted by Thousands of Happy Customers</h1>
+            <p class="testimonial-para text-center text-secondary fs-4 my-4 sm_p_text">Rated <span
+                    class="text-dark fs-4">4.5
+                    stars</span> on the App Store&Play Store
+            </p>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="testimonialBox">
+                        <div class="d-flex justify-content-evenly">
+                            <img src="./images/profile-pic.jpg" alt="/" width="50" height="50">
+                            <div>
+                                <h5>Rahul Jain</h5>
+                                <p class="justify-content-between"><span>warsaw, Poland </span><span
+                                        class="fw-bolder">4.5 <i class="fa-solid fa-star text-warning"></i></span></p>
+                            </div>
+                        </div>
+                        <p>"Wow ...Iam very happy to use this APP,it turned out to be more than my expectations and so
+                            far there have been no problems.LaslesVPN always the best".</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonialBox">
+                        <div class="d-flex justify-content-evenly">
+                            <img src="./images/profile-pic.jpg" alt="/" width="50" height="50">
+                            <div>
+                                <h5>Rahul Jain</h5>
+                                <p class="justify-content-between"><span>warsaw, Poland </span><span
+                                        class="fw-bolder">4.5 <i class="fa-solid fa-star text-warning"></i></span></p>
+                            </div>
+                        </div>
+                        <p>"Wow ...Iam very happy to use this APP,it turned out to be more than my expectations and so
+                            far there have been no problems.LaslesVPN always the best".</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonialBox">
+                        <div class="d-flex justify-content-evenly">
+                            <img src="./images/profile-pic.jpg" alt="/" width="50" height="50">
+                            <div>
+                                <h5>Rahul Jain</h5>
+                                <p class="justify-content-between"><span>warsaw, Poland </span><span
+                                        class="fw-bolder">4.5 <i class="fa-solid fa-star text-warning"></i></span></p>
+                            </div>
+                        </div>
+                        <p>"Wow ...Iam very happy to use this APP,it turned out to be more than my expectations and so
+                            far there have been no problems.LaslesVPN always the best".</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+
+    <section class="find bg-warning">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 find-left">
+                    <div class="find-H text-P" data-aos="fade-rigth">
+                        <h3 class="find-head sm_h_text">Are you still finding your soul mate?</h3>
+                        <p class="fs-5 sm_p_text">Download the app to Find right partner for you.</p>
+                        <div class="d-flex mt-5 flex-wrap justify-content-center">
+                            <a href="#" class="custom-btn-G btn btn-sz d-flex m-2">
+                                <p><i class="fa-brands fa-google-play fs-2 mt-1"></i></p>
+                                <p class="ms-1"><span class="smallF">GET IT ON</span><br><span
+                                        class="fs-4 fw-bold smallG">Google Play</span></p>
+                            </a>
+                            <a href="#" class="custom-btn-A btn btn-sz d-flex m-2">
+                                <p><i class="fa-brands fa-app-store-ios fs-2 mt-1"></i></p>
+                                <p><span class="smallF m-0 ps-3">DOWNLOAD ON THE</span><br><span
+                                        class="fs-4 fw-bold smallG">App Store</span></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 find-left">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <div data-aos="fade-left">
+                                <img src="./images/mobile.png" alt="img" class="img-fluid finf-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container make-stylish mt-5">
+        <div class="row">
+            <div class="col-md-5 make-stylish-img">
+                <div data-aos="fade-right">
+                    <img src="./images/frame.png" alt="img" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="make-stylish-text text-P" data-aos="fade-left">
+                    <h3 class="find-head sm_h_text">Make a stylish biodata for yourself</h3>
+                    <p class="text-secondary fs-4 sm_p_text">Love is inevitable.Why then should the process to find the
+                        Love of your life be slow and
+                        tedious?Activate Premium to go beyond!Premium avails you with full profiles of all you getacrush
+                        on(We know there areafew;)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container form_sec">
+        <div class="row justify-content-between">
+            <div class="col-md-7 form_sec_left text-P" data-aos="fade-right">
+                <h3 class="find-head sm_h_text">Fulfill Your Dream Of Finding The Right Partner</h3>
+                <p class="fs-5 fw-bold mb-3"><span class="text-danger">100% Confidential</span> and complete Menber
+                    Satisfaction</p>
+                <p class="fs-5 text-secondary sm_p_text">Casual Dating and all kept aside,at the end of the day we all
+                    seekaserious relationship.Aplace to
+                    call our home.A relationship where both people take responsibility,treat each other with respect
+                    and make 100%effort but leave at the very sight of tough times.</p>
+                <div class="d-flex mt-5 text-P d-flex flex-wrap justify-content-center">
+                    <a href="#" class="custom-btn-G btn d-flex m-2 g-btn">
+                        <p><i class="fa-brands fa-google-play fs-2 mt-1"></i></p>
+                        <p class="ms-1"><span class="smallF">GET IT ON</span><br><span
+                                class="fs-4 fw-bold smallG">Google
+                                Play</span></p>
+                    </a>
+                    <a href="#" class="custom-btn-A btn d-flex m-2 a-btn">
+                        <p><i class="fa-brands fa-app-store-ios fs-2 mt-1"></i></p>
+                        <p><span class="smallF m-0 ps-3">DOWNLOAD ON THE</span><br><span class="fs-4 fw-bold smallG">App
+                                Store</span></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-5 aos-init aos-animate text-P" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+
+                <div class="pricing card shadow-lg px-3" data-aos="fade-left">
+                    <div class="bg-white p-2">
+                        <h2 class="card-title">Free Registration</h2>
+                    </div>
+                    <div class="card-body">
+                        <form class="contact-form free-registration-form" id="free-registration-form" action=""
+                            novalidate="">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-floating mb-4">
+                                        <input id="first_name" type="text" name="first_name" class="form-control"
+                                            placeholder="Jane" required="">
+                                        <label for="first_name">First Name *</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-floating mb-4">
+                                        <input id="last_name" type="text" name="last_name" class="form-control"
+                                            placeholder="Jane" required="">
+                                        <label for="last_name">Last Name *</label>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-12">
+                                    <div class="form-floating mb-4">
+                                        <input id="email" type="email" name="email" class="form-control"
+                                            placeholder="jane.doe@example.com" required>
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-floating mb-4">
+                                        <input id="mobile_no" type="text" name="mobile_no" class="form-control"
+                                            placeholder="Jane" required="">
+                                        <label for="mobile_no">Mobile Number *</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn custom-btn2 btn-lg rounded w-100 mb-3">
+                                        Submit Request
+                                    </button>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="header-bg">
+        <div class="container py-5">
+            <div class="row justify-content-between">
+                <div class="col-md-4">
+                    <img src="./images/footer_logo.png" alt="footer_logo" width="150">
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/img (1).png" alt="img" width="200">
+                    <div class="d-flex">
+                        <a href="#" class="custom-btn-G btn btn-sm d-flex">
+                            <p><i class="fa-brands fa-google-play fs-2 mt-1"></i></p>
+                            <p class="ms-1"><span class="smallF">GET IT ON</span><br><span class="fs-4 fw-bold">Google
+                                    Play</span></p>
+                        </a>
+                        <a href="#" class="custom-btn-A btn btn-sm d-flex ">
+                            <p><i class="fa-brands fa-app-store-ios fs-2 mt-1"></i></p>
+                            <p><span class="smallF m-0 ps-3">DOWNLOAD ON THE</span><br><span class="fs-4 fw-bold">App
+                                    Store</span></p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center justify-content-end d-flex js-position">
+                    <ul class="d-flex gap-3 mt-5">
+                        <li class="list-unstyled"><a href="#"><i
+                                    class="fa-brands fa-facebook fs-3 text-white icon-hv"></i></a></a></li>
+                        <li class="list-unstyled"><a href="#"><i
+                                    class="fa-brands fa-twitter fs-3 text-white icon-hv"></i></a></a></li>
+                        <li class="list-unstyled"><a href="#"><i
+                                    class="fa-brands fa-linkedin fs-3 text-white icon-hv"></i></a></a></li>
+                        <li class="list-unstyled"><a href="#"><i
+                                    class="fa-brands fa-youtube fs-3 text-white icon-hv"></i></a></a></li>
+                        <li class="list-unstyled"><a href="#"><i
+                                    class="fa-brands fa-square-instagram fs-3 text-white icon-hv"></i></a></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-3 line_height">
+                    <h5 class="text-white mb-4">Communities</h5>
+                    <p><a href="#" class="text-decoration-none custom-color hv-text">Jain Matrimony</a></p>
+                    <p><a href="#" class="text-decoration-none custom-color hv-text">Agarwal Matrimony</a></p>
+                    <p><a href="#" class="text-decoration-none custom-color hv-text">Maheshwari Matrimony</a></p>
+                    <p><a href="#" class="text-decoration-none custom-color hv-text">Marwari Matrimony</a></p>
+                    <p><a href="#" class="text-decoration-none custom-color hv-text">Gujarati Matrimony</a></p>
+                    <p><a href="#" class="text-decoration-none custom-color hv-text">Hindu Matrimony</a></p>
+                    <p><a href="#" class="text-decoration-none custom-color hv-text">NRI Matrimony</a></p>
+                </div>
+                <div class="col-md-3 line_height">
+                    <h5 class="text-white mb-4">Location</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Surat</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Ahemdabad</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Mumbai</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Pune</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Patna</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Bangaluru</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Chennai</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Jaipur</a></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Hyderabad</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Lucknow</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Delhi</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Chandigarh</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Kolkata</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Noida</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Kanpur</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Nagpur</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 line_height">
+                    <h5 class="text-white mb-4">Information</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">About Us</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Contact Us</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Blogs</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Mark Your Bio Data</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Menbership</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">FAQ</a></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">What we Offer</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Privacy Policy</a></p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Terms &amp; Conditions</a>
+                            </p>
+                            <p><a href="#" class="text-decoration-none custom-color hv-text">Career</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 line_height">
+                    <p><a href="#" class="text-decoration-none custom-color hv-text">213, Ambedkar Shopping Center, Near
+                            Mandarwaja Fire Station, Ring Road,Surat - 395002</a></p>
+                    <p><a href="#" class="text-decoration-none custom-color hv-text">(+91)990 992 6929</a></p>
+                    <p><a href="#" class="text-decoration-none custom-color hv-text">(+91)955 887 7901</a></p>
+                    <p><a href="#" class="text-light text-decoration-none fw-bold">support@Cupidnot.com</a></p>
+                </div>
+            </div>
+            <div class="row text-white">
+                <div>© 2021-<span id="year"></span> Copyright By Jeetjatan Matrimonial Services Pvt. Ltd.</div>
+                <div>
+                    <p class="text-center">
+                        <a class="fs-2 text-secondary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="row mt-5">
+                            <div class="col-md-3 line_height">
+                                <h5 class="text-white mb-4">Communities</h5>
+                                <p><a href="#" class="text-decoration-none custom-color hv-text">Jain Matrimony</a></p>
+                                <p><a href="#" class="text-decoration-none custom-color hv-text">Agarwal Matrimony</a>
+                                </p>
+                                <p><a href="#" class="text-decoration-none custom-color hv-text">Maheshwari
+                                        Matrimony</a></p>
+                                <p><a href="#" class="text-decoration-none custom-color hv-text">Marwari Matrimony</a>
+                                </p>
+                                <p><a href="#" class="text-decoration-none custom-color hv-text">Gujarati Matrimony</a>
+                                </p>
+                                <p><a href="#" class="text-decoration-none custom-color hv-text">Hindu Matrimony</a></p>
+                                <p><a href="#" class="text-decoration-none custom-color hv-text">NRI Matrimony</a></p>
+                            </div>
+                            <div class="col-md-3 line_height">
+                                <h5 class="text-white mb-4">Location</h5>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Surat</a></p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Ahemdabad</a>
+                                        </p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Mumbai</a></p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Pune</a></p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Patna</a></p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Bangaluru</a>
+                                        </p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Chennai</a></p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Jaipur</a></p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Hyderabad</a>
+                                        </p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Lucknow</a></p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Delhi</a></p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Chandigarh</a>
+                                        </p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Kolkata</a></p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Noida</a></p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Kanpur</a></p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Nagpur</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 line_height">
+                                <h5 class="text-white mb-4">Information</h5>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">About Us</a>
+                                        </p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Contact Us</a>
+                                        </p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Blogs</a></p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Mark Your Bio
+                                                Data</a>
+                                        </p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Menbership</a>
+                                        </p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">FAQ</a></p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">What we
+                                                Offer</a></p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Privacy
+                                                Policy</a></p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Terms &amp;
+                                                Conditions</a></p>
+                                        <p><a href="#" class="text-decoration-none custom-color hv-text">Career</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 line_height">
+                                <p><a href="#" class="text-decoration-none custom-color hv-text">213, Ambedkar Shopping
+                                        Center,
+                                        Near Mandarwaja Fire Station, Ring Road,Surat - 395002</a></p>
+                                <p><a href="#" class="text-decoration-none custom-color hv-text">(+91)990 992 6929</a>
+                                </p>
+                                <p><a href="#" class="text-decoration-none custom-color hv-text">(+91)955 887 7901</a>
+                                </p>
+                                <p><a href="#" class="text-light text-decoration-none fw-bold">support@Cupidnot.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!--ASO-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- footer year-->
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            loop: true,
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 2,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
